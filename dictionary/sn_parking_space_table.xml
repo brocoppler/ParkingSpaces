@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Parking Space Table" max_length="40" name="sn_parking_space_table" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

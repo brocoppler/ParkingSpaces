@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>sn_parking_space.CheckEmployeeLevel</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CheckEmployeeLevel</name>
+        <script><![CDATA[var CheckEmployeeLevel = Class.create();
+CheckEmployeeLevel.prototype = {
+    initialize: function() {
+    },
+	
+	checkIfManager: function(user) {
+		if (user.title == "Manager") {
+			return true;
+		} else {
+			return false;
+		}
+	},
+
+    type: 'CheckEmployeeLevel'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-01 21:07:58</sys_created_on>
+        <sys_id>1d29e235c331130093533e5474d3ae4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CheckEmployeeLevel</sys_name>
+        <sys_package display_value="Parking Space" source="sn_parking_space">7998e231c331130093533e5474d3ae82</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Parking Space">7998e231c331130093533e5474d3ae82</sys_scope>
+        <sys_update_name>sys_script_include_1d29e235c331130093533e5474d3ae4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-01 21:30:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

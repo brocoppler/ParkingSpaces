@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Parking Space">2e98a2b1c331130093533e5474d3ae3f</application>
+        <filter/>
+        <name>Parking Space Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>sn_parking_space.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-01 21:00:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e98a2b1c331130093533e5474d3ae41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Space Table</sys_name>
+        <sys_package display_value="Parking Space" source="sn_parking_space">7998e231c331130093533e5474d3ae82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Space">7998e231c331130093533e5474d3ae82</sys_scope>
+        <sys_update_name>sys_ui_module_6e98a2b1c331130093533e5474d3ae41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-01 21:00:52</sys_updated_on>
+        <table>sn_parking_space_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
